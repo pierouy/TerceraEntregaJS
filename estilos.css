@@ -1,0 +1,120 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5F6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif
+}
+
+.navbar {
+    border: none; 
+}
+
+.navbar-toggler {
+    border-color: transparent; 
+}
+
+.hero {
+    padding: 40px;
+    background-color: #F8FAFA;
+    color: #393E46;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #6FC4D8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}
+
+.featured-products h2 {
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card {
+    border: none;
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    color: #FFFFFF;
+    background-color: #6FC4D8;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.btn-agregar-carrito {
+    padding: 6px 12px;
+    font-size: 14px; 
+    background-color: #6FC4D8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-agregar-carrito:hover {
+    background-color: #53A4BA;
+}
+
+/* Estilos para el botón "Comprar" */
+#botonComprar {
+    padding: 8px 16px; /* Ajustar el tamaño del botón */
+    font-size: 16px; /* Ajustar el tamaño de la fuente del botón */
+    background-color: orange; /* Cambiar el color a naranja */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Centrar el botón horizontalmente */
+}
+
+#botonComprar:hover {
+    background-color: #794f02; /* Color naranja oscuro al pasar el ratón por encima */
+}
+
+/* Estilos para la sección ".hero" */
+.hero {
+    padding: 40px;
+    background-color: #F8FAFA;
+    color: #393E46;
+    text-align: center; /* Centrar el contenido del texto en la sección */
+}
+
+/* Estilos para el párrafo dentro de la sección ".hero" */
+.hero p {
+    font-size: 20px; /* Ajustar el tamaño del texto del párrafo */
+}

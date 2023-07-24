@@ -86,11 +86,10 @@ footer {
     background-color: #53A4BA;
 }
 
-/* Estilos para el botón "Comprar" */
 #botonComprar {
-    padding: 8px 16px; /* Ajustar el tamaño del botón */
-    font-size: 16px; /* Ajustar el tamaño de la fuente del botón */
-    background-color: orange; /* Cambiar el color a naranja */
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: orange; 
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
@@ -99,22 +98,20 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto; /* Centrar el botón horizontalmente */
+    margin: auto;
 }
 
 #botonComprar:hover {
-    background-color: #794f02; /* Color naranja oscuro al pasar el ratón por encima */
+    background-color: #794f02;
 }
 
-/* Estilos para la sección ".hero" */
 .hero {
     padding: 40px;
     background-color: #F8FAFA;
     color: #393E46;
-    text-align: center; /* Centrar el contenido del texto en la sección */
+    text-align: center; 
 }
 
-/* Estilos para el párrafo dentro de la sección ".hero" */
 .hero p {
-    font-size: 20px; /* Ajustar el tamaño del texto del párrafo */
+    font-size: 20px; 
 }
